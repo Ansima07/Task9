@@ -1,0 +1,3 @@
+module ExchangeRates {
+    exports exchangerate;
+}
