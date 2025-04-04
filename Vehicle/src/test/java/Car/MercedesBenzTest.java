@@ -12,13 +12,13 @@ class MercedesBenzTest {
 
     @org.junit.jupiter.api.Test
     void getMercedesBenzCost() {
-        Car1.GetMercedesBenzCost(20);
+        Car1.GetMercedesBenzCost(10);
     }
 
     @org.junit.jupiter.api.Test
      void exchangeRates() {
-        Car1.ExchangeRates("UGX", "USD", 20);
-        double expected = 700000;
+        Car1.ExchangeRates("UGX", "USD", 10);
+        double expected = 350000;
         assertEquals(expected, Car1.GetMercedesBenzCost(20));
     }
 }
